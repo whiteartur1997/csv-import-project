@@ -1,9 +1,10 @@
+/* eslint-disable */
 import moment from 'moment'
 import { usStates } from './USStates'
 
 // store emails and phones to check for duplicates
-export let arrOfEmails = []
-export let arrOfPhones = []
+export var arrOfEmails = []
+export var arrOfPhones = []
 
 // check file extension
 export function getExtension(filename) {
